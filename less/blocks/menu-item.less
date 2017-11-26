@@ -1,0 +1,45 @@
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 493px;
+  margin-top: 55px;
+}
+
+.menu-item__name {
+  width: 400px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: @font-color-secondary;
+  letter-spacing: 1px;
+}
+
+.menu-item__price {
+  margin-top: -20px;
+}
+
+.menu-item__price::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 220px;
+  height: 1px;
+  margin-right: 20px;
+
+  background: #e3e1e1;
+}
+
+.menu-item__desc {
+  width: 205px;
+  margin-top: 3px;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #b7b7b7;
+  letter-spacing: 0.3px;
+}
