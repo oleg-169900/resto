@@ -233,18 +233,22 @@
 
     <footer class="page-footer">
       <div class="page-footer__wrapper  center">
-        <div class="contacts">
-          <span class="contacts__title">New York Restaurant</span>
-          <span class="contacts__address">3926 Anmoore Road</span>
-          <span class="contacts__post-index">New York, NY 10014</span>
-          <a class="contacts__tel" href="tel:#">718-749-1714</a>
-        </div>
-        <div class="contacts">
-          <span class="contacts__title">France Restaurant</span>
-          <span class="contacts__address">68, rue de la Couronne</span>
-          <span class="contacts__post-index">Paris, 75002</span>
-          <a class="contacts__tel" href="tel:#">029-423-6956</a>
-        </div>
+        <ul class="contacts">
+          <li class="contacts__item  contacts__item--city">New York Restaurant</li>
+          <li class="contacts__item  contacts__item--address">3926 Anmoore Road</li>
+          <li class="contacts__item  contacts__item--post">New York, NY 10014</li>
+          <li class="contacts__item  contacts__item--tel">
+            <a class="contacts__link" href="tel:#">718-749-1714</a>
+          </li>
+        </ul>
+        <ul class="contacts">
+          <li class="contacts__item  contacts__item--city">France Restaurant</li>
+          <li class="contacts__item  contacts__item--address">68, rue de la Couronne</li>
+          <li class="contacts__item  contacts__item--post">Paris, 75002</li>
+          <li class="contacts__item  contacts__item--tel">
+            <a class="contacts__link" href="tel:#">029-423-6956</a>
+          </li>
+        </ul>
         <nav class="secondary-nav">
           <ul class="secondary-nav__list">
             <li class="secondary-nav__item">
@@ -262,10 +266,12 @@
           </ul>
         </nav>
         <div class="copyright">
-          <a href="#">
-            <img src="img/logo-footer.png" alt="logo">
-          </a>
-          <span class="copyright__text">&copy; All Rights Reserved 2014. Find More at <a class="copyright__link" href="#">Pixelhint</a></span>
+          <div class="page-footer__logo">
+            <a href="#">
+              <img src="img/logo-footer.png" alt="logo">
+            </a>
+          </div>
+          <span class="copyright__text">&copy; All Rights Reserved 2014.<br> Find More at <a class="copyright__link" href="#">Pixelhint</a></span>
         </div>
       </div>
     </footer>
