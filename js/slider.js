@@ -10,6 +10,7 @@
     var sliderToggle4 = document.querySelector('#slider__toggle-4');
     var list = document.querySelector('.slider__list');
 
+    list.classList.remove('slider__no-js');
 
     sliderToggle1.onclick = function() {
       sliderToggle2.classList.remove('slider__toggle--active');
